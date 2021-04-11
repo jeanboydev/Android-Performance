@@ -1,4 +1,4 @@
-package com.jeanboy.component.performance;
+package com.jeanboy.app.performance;
 
 import android.util.Log;
 
@@ -14,7 +14,7 @@ import org.aspectj.lang.annotation.Aspect;
 @Aspect
 public class LaunchAop {
 
-    @Around("call(* com.astrology.component.core.AppManager.**(..))")
+    @Around("call(* com.jeanboy.app.performance.MainActivity.**(..))")
     public void getTime(ProceedingJoinPoint joinPoint) {
         long startTime = System.currentTimeMillis();
 
