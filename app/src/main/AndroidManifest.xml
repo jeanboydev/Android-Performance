@@ -3,14 +3,19 @@
     package="com.jeanboy.app.performance">
 
     <application
+        android:name=".base.MainApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:name=".MainApp"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Performance">
-        <activity android:name=".memory.LeakActivity"/>
+        <activity android:name=".ui.activity.IdleHandlerActivity"></activity>
+        <activity android:name=".ui.activity.Handler3Activity" />
+        <activity android:name=".ui.activity.Handler2Activity" />
+        <activity android:name=".ui.activity.Handler1Activity" />
+        <activity android:name=".ui.activity.HandlerListActivity" />
+        <activity android:name=".memory.LeakActivity" />
         <activity android:name=".memory.MemoryActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

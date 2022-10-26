@@ -1,4 +1,4 @@
-package com.jeanboy.app.performance;
+package com.jeanboy.app.performance.helper;
 
 import android.util.Log;
 

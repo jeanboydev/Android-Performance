@@ -3,17 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
     android:paddingStart="32dp"
     android:paddingEnd="32dp"
-    tools:context=".MainActivity">
+    tools:context=".ui.activity.Handler3Activity">
+
+    <com.jeanboy.app.performance.ui.view.HandlerView
+        android:id="@+id/handler_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_green_light"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:onClick="toHandler"
-        android:text="Handler"
-        android:textAllCaps="false" />
+        android:layout_marginTop="40dp"
+        android:onClick="toStart"
+        android:text="开始" />
+
 
 </LinearLayout>
