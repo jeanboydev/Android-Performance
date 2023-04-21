@@ -10,7 +10,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Performance">
-        <activity android:name=".ui.activity.IdleHandlerActivity"></activity>
+        <activity
+            android:name=".ui.activity.AnimActivity"
+            android:exported="false" />
+        <activity android:name=".ui.activity.MMKVActivity" />
+        <activity android:name=".ui.activity.IdleHandlerActivity" />
         <activity android:name=".ui.activity.Handler3Activity" />
         <activity android:name=".ui.activity.Handler2Activity" />
         <activity android:name=".ui.activity.Handler1Activity" />

@@ -7,29 +7,21 @@
     android:orientation="vertical"
     android:paddingStart="32dp"
     android:paddingEnd="32dp"
-    tools:context=".MainActivity">
+    tools:context=".ui.activity.MMKVActivity">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:onClick="toHandler"
-        android:text="Handler"
+        android:onClick="toAdd"
+        android:text="添加数据"
         android:textAllCaps="false" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
-        android:onClick="toMMKV"
-        android:text="MMKV"
-        android:textAllCaps="false" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="20dp"
-        android:onClick="toAnim"
-        android:text="Anim"
+        android:onClick="toClear"
+        android:text="清空数据"
         android:textAllCaps="false" />
 
 </LinearLayout>
